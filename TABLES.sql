@@ -1,0 +1,9 @@
+-- Active: 1795466019258@@127.0.0.1@3306@recpatrick
+CREATE TABLE LIVROS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR (150) NOT NULL,
+    autor VARCHAR(100) NOT NULL,
+    editora VARCHAR(100) NOT NULL,
+    publicado VARCHAR (40) NOT NULL
+)
+
